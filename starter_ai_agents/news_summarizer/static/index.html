@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI News Summarizer</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>📰 AI News Summarizer</h1>
+            <p>Get the latest news summarized by AI.</p>
+        </header>
+
+
+        <section class="controls">
+
+            <select id="category">
+                <option value="technology">Technology</option>
+                <option value="science">Science</option>
+                <option value="world">World</option>
+            </select>
+
+
+            <select id="limit">
+                <option value="3">3 Stories</option>
+                <option value="5">5 Stories</option>
+            </select>
+
+
+            <button id="summarizeBtn">
+                Get News
+            </button>
+
+        </section>
+
+
+        <div id="loading" class="loading hidden">
+            Getting the latest news...
+        </div>
+
+
+        <section class="results">
+
+            <h2 id="resultsTitle"></h2>
+
+            <div id="newsContainer"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
