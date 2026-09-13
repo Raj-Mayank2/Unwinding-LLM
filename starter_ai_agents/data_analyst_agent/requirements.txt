@@ -1,0 +1,6 @@
+agno
+groq
+streamlit
+pandas
+matplotlib
+python-dotenv
